@@ -125,3 +125,90 @@
     font-size: 2rem;
     margin-bottom: 20px;
 }
+
+/* Projects */
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+}
+
+/* Contact */
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(189, 189, 189, 0.9);
+    color: black;
+    padding: 20px;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 25%;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+#msg{
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+#form-buttons{
+    display: flex;
+}
+
+#send{
+    padding: 10px;
+    width: auto;
+    margin: 40px;
+    border: none;
+    outline: none;
+}
+
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+
+#reset{
+    padding: 10px;
+    width: auto;
+    margin: 40px;
+    border: none;
+    outline: none;
+}

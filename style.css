@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Navbar */
 .navbar{
     display: flex;
@@ -21,6 +25,7 @@
 }
 
 .navbar ul li{
+    font-family: "Prata";
     font-size: 1.1rem;
     font-weight: bold;
 }
@@ -72,9 +77,15 @@
 }
 
 .headings{
+    font-family: "Prata";
     font-size: 3rem;
     text-align: center;
     margin: 40px 0px;
+}
+
+.heading{
+    font-family: "Roboto Mono";
+    font-size: 2.5rem;
 }
 
 .btn{
@@ -84,6 +95,7 @@
     color: white;
     outline: none;
     transition: .6s ease;
+    font-family: "Prata";
 }
 
 .btn:hover{
@@ -95,7 +107,6 @@
 }
 
 /* About */
-
 #about{
     display: flex;
     flex-direction: column;
@@ -119,6 +130,7 @@
     flex-direction: column;
     text-align: justify;
     padding: 10px;
+    font-family: "Roboto Mono";
 }
 
 #intro h2{
@@ -127,7 +139,6 @@
 }
 
 /* Projects */
-
 #projects{
     display: flex;
     flex-direction: column;
@@ -150,8 +161,19 @@
     margin: 10px;
 }
 
-/* Contact */
+.projectone:hover img{
+    opacity: 0.3;
+}
 
+.projecttwo:hover img{
+    opacity: 0.3;
+}
+
+.projectthree:hover img{
+    opacity: 0.3;
+}
+
+/* Contact */
 #contact{
     display: flex;
     flex-direction: column;
@@ -171,6 +193,7 @@
 }
 
 .input{
+    font-family: "Roboto Mono";
     padding: 12px;
     margin: 15px;
     width: 25%;
@@ -193,6 +216,7 @@
 }
 
 #send{
+    font-family: "Prata";
     padding: 10px;
     width: auto;
     margin: 40px;
@@ -201,14 +225,22 @@
 }
 
 #send:hover{
+    font-family: "Prata";
     cursor: pointer;
     box-shadow: 0 0 10px white;
 }
 
 #reset{
+    font-family: "Prata";
     padding: 10px;
     width: auto;
     margin: 40px;
     border: none;
     outline: none;
+}
+
+#reset:hover{
+    font-family: "Prata";
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
 }

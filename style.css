@@ -192,63 +192,32 @@ html{
     padding: 5px;
 }
 
-.form{
+/* Footer */
+#footer{
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
-    align-items: center;
-    margin: 20px 0px;
-}
-
-.input{
+    background-color: black;
+    color: white;
+    padding: 40px;
     font-family: "Roboto Mono";
-    padding: 12px;
-    margin: 15px;
-    width: 25%;
-    border: none;
-    outline: none;
-    border-radius: 15px;
+    align-items: center;
+    font-size: 1.5rem;
 }
 
-#msg{
-    width: 20%;
-    padding: 10px;
-    margin: 15px;
-    border: none;
-    outline: none;
-    border-radius: 15px;
+.links{
+    padding: 20px;
 }
 
-#form-buttons{
+.links ul{
     display: flex;
+    list-style: none;
 }
 
-#send{
-    font-family: "Prata";
-    padding: 10px;
-    width: auto;
-    margin: 40px;
-    border: none;
-    outline: none;
-}
-
-#send:hover{
-    font-family: "Prata";
-    cursor: pointer;
+.links:hover{
+    background-color: white;
+    color: black;
     box-shadow: 0 0 10px white;
 }
 
-#reset{
-    font-family: "Prata";
-    padding: 10px;
-    width: auto;
-    margin: 40px;
-    border: none;
-    outline: none;
-}
-
-#reset:hover{
-    font-family: "Prata";
-    cursor: pointer;
-    box-shadow: 0 0 10px white;
-}
+/* @media screen and (max-width: 425px) {
+} */

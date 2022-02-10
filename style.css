@@ -173,6 +173,10 @@ html{
     opacity: 0.3;
 }
 
+.projectfour:hover img{
+    opacity: 0.3;
+}
+
 /* Contact */
 #contact{
     display: flex;
